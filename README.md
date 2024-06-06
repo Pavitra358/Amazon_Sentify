@@ -1,4 +1,3 @@
-Review_Bot:
 This project is a sentiment analysis web application designed to categorize product reviews as positive, negative, or neutral. Leveraging Natural Language Processing (NLP) techniques, the app utilizes three main components:
 
 -VADER (Valence Aware Dictionary and sEntiment Reasoner): VADER is a lexicon and rule-based sentiment analysis tool that is specifically attuned to sentiments expressed in social media. It provides a way to quantify the sentiment of text data in terms of polarity (positive, negative, neutral) and intensity.
