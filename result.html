@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentiment Analysis Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Analysis Result</h1>
+        <p><strong>Text:</strong> {{ text }}</p>
+        <p><strong>Sentiment Score:</strong> {{ sentiment_score }}</p>
+        <p><strong>Sentiment:</strong> {{ sentiment }}</p>
+        <a href="/">Back to Homepage</a>
+    </div>
+</body>
+</html>
+
+
+ 
